@@ -1,0 +1,7 @@
+@theme {
+  --color-*: initial;
+  --font-sans: "Barlow", sans-serif;
+  --color-ml-base: #005A57;
+  --color-ml-contrast: #AFE108;
+  --color-ml-foreground: #EBECEC;
+}

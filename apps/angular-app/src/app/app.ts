@@ -1,13 +1,12 @@
+// apps/angular-app/src/app/app.ts
 import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { Card } from '@nx-workspace/ui-components';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
   selector: 'app-root',
+  imports: [Card],
   templateUrl: './app.html',
-  styleUrl: './app.css',
 })
 export class App {
-  protected title = 'angular-app';
+  protected readonly cards = ['Card 1', 'Card 2', 'Card 3'];
 }
